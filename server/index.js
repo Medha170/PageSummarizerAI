@@ -4,7 +4,9 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "https://page-summarizer-ai.vercel.app/"
+}));
 app.use(bodyParser.json());
 
 const summarizeRoutes = require("./routes/summarize");

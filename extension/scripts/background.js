@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === 'summarize') {
-        fetch('http://localhost:5000/api/summarize', {
+        fetch('https://pagesummarizerai.onrender.com/api/summarize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
