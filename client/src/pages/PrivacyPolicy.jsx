@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="privacy-policy">
       <h1>Privacy Policy</h1>
-      <p>Effective Date: [Insert Date]</p>
+      <p>Effective Date: 03/01/2025</p>
       <p>
         <strong>Page Summarizer</strong> is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
       </p>
@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
         We use the <strong>Gemini API</strong> to generate the AI-based summaries of web pages. By using this extension, you acknowledge that the content of the web page may be sent to Gemini's servers for processing. The data is used only for generating a summary and is not stored or used for any other purpose.
       </p>
       <p>
-        For more details on how Gemini handles data, you can refer to their privacy policy: https://support.google.com/gemini/answer/13594961?hl=en .
+        For more details on how Gemini handles data, you can refer to their privacy policy: <a href="https://support.google.com/gemini/answer/13594961?hl=en">https://support.google.com/gemini/answer/13594961?hl=en</a> .
       </p>
 
       <h2>Data Retention</h2>
